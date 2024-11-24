@@ -4,7 +4,7 @@ class Television:
     MIN_CHANNEL = 0
     MAX_CHANNEL = 3
 
-    def __innit__(self):
+    def __init__(self):
         self.__status = False
         self.__muted = False
         self.__volume = self.MIN_VOLUME
